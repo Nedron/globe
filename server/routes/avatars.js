@@ -37,7 +37,7 @@ avatars.get = function (req, res) {
             return res.apiOut('user not found');
         }
 
-        var avatar = user.avatar || 'https://guestville.jiggmin.com/avatar.php';
+        var avatar = user.avatar || 'https://cdn.discordapp.com/attachments/228714350062469120/666144866257862656/5e1bb72d363956f91d747257-48x48.gif';
         
         
         // --> let facebook do the resizing
